@@ -3,3 +3,94 @@
 * {
     font-family: 'Atkinson Hyperlegible', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    width: 100vw;
+    margin: 0px;
+    background-color: rgb(7, 9, 33);
+    color: white;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    
+    margin: 0px;
+    padding: 0em 1em 0em 1em;
+
+    display: flex;
+    position: fixed;
+    top: 0;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+    background: rgb(236,235,255);
+    background: -moz-linear-gradient(90deg, rgba(236,235,255,0.8481561822125814) 0%, rgba(126,126,205,0.6882863340563991) 35%, rgba(236, 252, 255, 0.847) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(236,235,255,0.8481561822125814) 0%, rgba(126,126,205,0.6882863340563991) 35%, rgba(236, 252, 255, 0.847) 100%);
+    background: linear-gradient(90deg, rgba(236,235,255,0.8481561822125814) 0%, rgba(126,126,205,0.6882863340563991) 35%, rgba(236, 252, 255, 0.847) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecebff",endColorstr="#aff2ff",GradientType=1); 
+    border-bottom: 2px solid white;
+
+    color: rgb(76, 12, 136);
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#logo-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#logo {
+    height: 2em;
+    width: 2em;
+}
+
+#sections {
+    display: flex;
+    gap: 5px;
+}
+
+#gradient {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 15vh;
+    background-color:rgb(2, 2, 27);
+    background-image:
+    radial-gradient(white, rgba(17, 49, 83, 0.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(129, 13, 103, 0.254) 1px, transparent 30px),
+    radial-gradient(rgb(241, 255, 255), rgba(24, 91, 124, 0.305) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px; 
+}
+
+
+#rescues {
+    padding: 1em 1em;
+    display: flex;   
+    gap: 2em;
+    background-color: rgb(22, 22, 67);
+}
+
+.rescue-box {
+    width: auto;
+    padding: 0.5em 2em;
+    border-radius: 2vw;   
+    background-color: rgb(40, 40, 103); 
+}
+
+.rescue-box img {
+    width: 20vw;
+    height: auto;
+}
+
