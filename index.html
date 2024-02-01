@@ -9,11 +9,11 @@
 <body>
     <header>
         <div id="logo-box">
-            <img id="logo" src="logo.png">
+            <img id="logo" alt="Galaxy Guardian's logo, a purpble planet with a double ring and 2 stars" src="logo.png">
             <a href="#">Galactic Guardians</a>
         </div>
-        <div id="sections">
-            <ul>
+        <div >
+            <ul id="sections">
                 <a href="#mission">Mission</a>
                 <a href="#current">Current</a>
                 <a href="#contacts">Contacts</a>
@@ -23,32 +23,37 @@
     </header>
     
     <div id="gradient">
-        <h1>The Galaxy's Premier Alien Rescue Agency</h1>
+        <h1>The Galaxy's Premier Alien Rescue Agency ✨</h1>
+        <div id="wavy-boi">
+            <img src="waving.png" alt="" role="presentation">
+        </div>
     </div>
 
-    <div id="mission">
+    <div id="mission" class="text-section">
         <h2>Mission</h2>
-        <p>Galactic Guardians: Rescuing Lives Across the Stars.</p>
-        <p>
-            Welcome to Galactic Guardians, the premier interstellar rescue agency committed 
-            to safeguarding extraterrestrial life across the cosmos. Our mission is to respond 
-            swiftly and effectively to distress signals from sentient beings beyond our 
-            planetary borders, ensuring their safety and well-being. With cutting-edge 
-            technology and a team of compassionate cosmic responders, we strive to create a 
-            universe where no being is left stranded or in peril. 
-        </p>
-        <p>
-            From the farthest reaches of 
-            unknown galaxies to the unexplored corners of the cosmos, Galactic Guardians is 
-            dedicated to fostering unity and extending a helping hand (or tentacle) to those 
-            in need. Together, we embark on a mission to explore, assist, and unite the diverse 
-            inhabitants of the cosmos, forging a tapestry of intergalactic cooperation and 
-            understanding. Our commitment transcends borders and species, embodying the belief 
-            that every sentient being deserves the chance to thrive in the vast expanse of the 
-            universe. Join us on this cosmic journey, where compassion knows no bounds, and 
-            together, we'll continue to be the guiding light for those lost in the infinite 
-            wonders of the cosmos. 
-        </p>
+        <p>💫 Galactic Guardians: Rescuing Lives Across the Stars. 🌠</p>
+        <div class="box-thing">
+            <p>
+                Welcome to Galactic Guardians, the premier interstellar rescue agency committed 
+                to safeguarding extraterrestrial life across the cosmos. Our mission is to respond 
+                swiftly and effectively to distress signals from sentient beings beyond our 
+                planetary borders, ensuring their safety and well-being. With cutting-edge 
+                technology and a team of compassionate cosmic responders, we strive to create a 
+                universe where no being is left stranded or in peril. 
+            </p>
+            <p>
+                From the farthest reaches of 
+                unknown galaxies to the unexplored corners of the cosmos, Galactic Guardians is 
+                dedicated to fostering unity and extending a helping hand (or tentacle) to those 
+                in need. Together, we embark on a mission to explore, assist, and unite the diverse 
+                inhabitants of the cosmos, forging a tapestry of intergalactic cooperation and 
+                understanding. Our commitment transcends borders and species, embodying the belief 
+                that every sentient being deserves the chance to thrive in the vast expanse of the 
+                universe. Join us on this cosmic journey, where compassion knows no bounds, and 
+                together, we'll continue to be the guiding light for those lost in the infinite 
+                wonders of the cosmos. 
+            </p>
+        </div>
 
         <h3>Our 3 Values</h3>
         <ol>
@@ -60,84 +65,125 @@
     </div>
 
     <div id="current">
-        <h2>Current Rescues</h2>
+        <h2 class="adjust">Current Rescues</h2>
         <div id="rescues">
             <div class="rescue-box">
                 <h3>Barto</h3>
-                <img src="alien1.png">
-                <p>asdfasdf</p>
+                <img src="alien1.png" 
+                    alt="A silly drawing of a purple alien with 3 legs built like a with dark blue plates akin to a stegosaurus and purple spots on his butt. It has a gaping mouth with pointy teeth and worried yellow eyes, with its antennae slightly drooping."
+                >
+                <p>
+                    Found knawing on one of our volunteer's feet, 
+                    this little fellow is known for their voracious 
+                    appetite and deep purple saliva.
+                </p>
             </div>
             <div class="rescue-box">
                 <h3>Neil</h3>
-                <img src="alien2.png">
-                <p>asdfasdf</p>
+                <img src="alien2.png"
+                    alt="A simply goofy little drawing of a light-skinned astronaut with what seems to be a simplified NASA logo on their right arm."
+                >
+                <p>
+                    Came to us in his own white cucoon, which he
+                    treats as a security blanket, refusing to part
+                    from -- simply adorable!
+                </p>
             </div>
             <div class="rescue-box">
                 <h3>Leqwklejl</h3>
-                <img src="alien3.png">
-                <p>asdfasdf</p>
+                <img src="alien3.png"
+                    alt="A drawing of a bipedal green alien with thick limbs standing in a hugging position. It has a cat-like smile along with 5 blank black eyes staring forward and ears that stick out oddly. Overall build is similar to Stitch from Disney's Lilo and Stitch."
+                >
+                <p>
+                    A friendly miss girl who enjoys staring at moving
+                    objects and astrophysics. Loves 4D chess and her
+                    favorite brand of wet food.
+                </p>
+            </div>
+            <div class="rescue-box">
+                <h3>Har</h3>
+                <img src="alien4.png"
+                    alt="A goofy drawing of a yellow alien that looks like a giraffe if its torso was spread out with thicker limbs. Its neck is striped and it is sticking out its tongue from its oddly human face. It also has bear ears."
+                >
+                <p>
+                    Stripey fellow whose neck was found stuck around a
+                    Hemfs tree in the Grenar cluster. How he got so far
+                    away, we don't know!
+                </p>
             </div>
         </div>
-        <div>
-            <button>see more</button>
+        <div id="more-box">
+            <p>Like these guys?</p>
+            <button onclick="() => {alert('No more lil guys :(')}">see more</button>
         </div>
     </div>
 
-    <div id="contacts">
+    <div id="contacts" class="text-section">
         <h2>Contacts</h2>
+        <p>Need more assistsance? Contact us below!</p>
         <table>
             <tr>
-              <th>Company</th>
-              <th>Contact</th>
-              <th>Country</th>
+              <th>Name</th>
+              <th>Galaxy</th>
+              <th>Cluster</th>
             </tr>
             <tr>
               <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
+              <td>Andromedia</td>
+              <td>ADF12334</td>
             </tr>
             <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
+              <td>Centro Moctezuma</td>
+              <td>PAOL</td>
+              <td>FDD17238</td>
             </tr>
             <tr>
               <td>Ernst Handel</td>
-              <td>Roland Mendel</td>
-              <td>Austria</td>
+              <td>Ang Keepar Fe</td>
+              <td>KJT900012</td>
             </tr>
             <tr>
               <td>Island Trading</td>
-              <td>Helen Bennett</td>
-              <td>UK</td>
+              <td>Juasiem</td>
+              <td>UKT1231293</td>
             </tr>
           </table>
     </div>
 
-    <div id="requirements">
+    <div id="requirements" class="text-section">
         <h3>Requirements</h3>
-        <p>This page was made for <a>Texas A&M's Accessability Course (CSCE 432)</a></p>
-        <ul>
-            <li>Sections with Headings</li>
-            <li>Links</li> 
-            <li>
-                Images
-                <ul>
-                    <li>One with semantic meaning</li> 
-                    <li>One that is decorative</li> 
-                </ul> 
-            </li> 
-            <li>A Table (non-formatting)</li> 
-            <li>Paragraphs</li> 
-            <li>
-                Lists
-                <ul>
-                    <li>One ordered</li> 
-                    <li>One un-ordered</li>
-                </ul>
-                
-            </li>
-        </ul>
+        <p>
+            This page was made for 
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/"
+            target="_blank" rel="noopener noreferrer"
+            >Texas A&M's Accessability Course (CSCE 432)</a>'s class
+            activity for January 31, 2024.
+        </p>
+        <div class="box-thing">
+            <p>Include:</p>
+            <ul>
+                <li>Sections with Headings</li>
+                <li>Links</li> 
+                <li>
+                    Images
+                    <ul>
+                        <li>One with semantic meaning</li> 
+                        <li>One that is decorative</li> 
+                    </ul> 
+                </li> 
+                <li>A Table (non-formatting)</li> 
+                <li>Paragraphs</li> 
+                <li>
+                    Lists
+                    <ul>
+                        <li>One ordered</li> 
+                        <li>One un-ordered</li>
+                    </ul>
+                    
+                </li>
+            </ul>
+        </div>
+        
     </div>
     
     <footer>
